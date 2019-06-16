@@ -142,6 +142,7 @@
     <Content Include="Images\IMG_6573.png" />
     <Content Include="Images\LOGO-4-01 %282%29.png" />
     <Content Include="Images\LOGO-4-01-Revise No Letters.png" />
+    <Content Include="ReleaseNotes.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
