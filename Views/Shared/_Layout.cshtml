@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="icon" href="~/Images/LOGO-4-01-Revise No Letters.png" />
+    @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="header">
+        <div class="segment m-0 p-2">
+            <div id="restofheader">
+                <h1 class="display-3 text-white bold" id="head">Your Storm Solution</h1>
+                <h2 class="text-white display-5" id="subhead">General Contracting & Insurance Claims Services</h2>
+            </div>
+        </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+            </div>
+            <footer class="text-white p-2">
+                <div class="container">
+                    <div class="row">
+                        <p class="mx-auto p-2">
+                            <i class="bold">Contact us to see if you qualify for a free Pro Force System upgrade!</i>
+                        </p><br>
+                        <p class="mx-auto p-2">
+                            <b>Call </b>: <a href="callto:8129010550">(812) 901-0550</a>
+                        </p>
+                        <p class="mx-auto p-2">
+                            <b>Email</b>: <a href="mailto:joes@yourstormsolution.com?subject=I Want To Know More">joes@yourstormsolution.com</a>
+                        </p>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <p class="mx-auto p-2">
+                                About Us
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)
+</body>
+</html>

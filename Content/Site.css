@@ -1,0 +1,235 @@
+﻿/*==============
+Page Styles
+==============*/
+
+body {
+    background-color: #2d545d;
+    color: white;
+}
+
+head {
+    height: 100px;
+}
+
+#logo {
+    height: 100px;
+}
+
+/*.carousel-inner {
+    height: auto;
+    width: 50%;
+    max-height: 400px;
+}*/
+
+form {
+    background-color: #2d545d;
+}
+
+.segment {
+    background-color: #474848;
+    width: 100%;
+}
+
+
+footer {
+    background-color: #474848;
+    margin: 0;
+}
+
+.bottom {
+    margin: auto;
+    align-content: center;
+}
+
+/* ========
+IMAGES
+=========*/
+
+#logo {
+    display: table-cell;
+    line-height: 0;
+    width: 150px;
+    height: 50px;
+}
+
+.caro_logo {
+    height: auto;
+    width: 60%;
+    margin: auto;
+}
+
+#logo img {
+    width: auto;
+    height: auto;
+}
+
+#header {
+    display: table;
+    width: 100%;
+}
+
+#restofheader {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 30px;
+}
+
+/* ========
+CONDITIONAL CLASSES
+=========*/
+
+.success {
+    background-color: green;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    background-color: lightgrey;
+    padding: 1px 5px;
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    background: #2d545d;
+    background-size: 100% 100%;
+}
+
+/*
+.carousel img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 600px;
+    max-width: none;
+}
+*/
+
+/*
+.carousel {
+  width:100%;
+  height:100%;
+    padding-bottom: 100px;
+}
+*/
+
+
+
+/* ==========
+FONT FX|| MODAL FONTS
+========== */
+
+a:link {
+    color: white;
+}
+
+.noHover:hover {
+    cursor: default;
+}
+
+.newspaper {
+    font-family: courier;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.lead {
+    /*font size 27 */ 
+    /*for larger font-size: 18px;*/
+    text-shadow: -0.1px 0 black, 0 0.1px grey, 0.1px 0 lightgrey, 0 -0.1px black;
+}
+
+.emphasis {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#special {
+    text-decoration: underline;
+}
+
+.carousel {
+    width: 640px;
+    height: 360px;
+    position: center;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+/* ========
+MEDIA QUERIES
+=========*/
+
+@media (max-width: 768px) {
+
+    .display-2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .display-3 {
+        font-size: 25px;
+    }
+
+    .display-4 {
+        font-size: 20px;
+    }
+
+    .jumbotron {
+        background: #2d545d;
+    }
+
+    input {
+        margin-top: 1px;
+    }
+
+ 
+
+    @media (max-width: 1000px) {
+
+        head {
+            height: 100px;
+        }
+
+        #logo {
+            height: 100px;
+        }
+
+        .carousel-inner {
+            width: 400px;
+            height: 500px;
+        }
+
+        #logo {
+            display: table-cell;
+            line-height: 0;
+            width: 20%;
+            height: auto;
+        }
+
+
+        .display-2 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .display-3 {
+            font-size: 45px;
+        }
+
+        .display-4 {
+            font-size: 20px;
+        }
+    }
+}
